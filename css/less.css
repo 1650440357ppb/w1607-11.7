@@ -357,3 +357,210 @@
   }
 }
 /*清除浮动*/
+
+
+/*apple*/
+body,ul,li{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.adv-wrapper {
+  position: absolute;
+  background: #444;
+  line-height:50px;
+  /*top: -40px;*/
+  width: 100%;
+  right: 0;
+  top:0;
+  height: 50px;
+  z-index: 9999;
+}
+.adv-wrapper .adv-wrapper-text {
+  color: #a8a8aa;
+  font-size: 12px;
+  font-family: "HanHei SC", PingHei, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  line-height: 50px;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-align: right;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#ac-global{
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 1024px;
+  /*max-height: 44px;*/
+  height: 54px;
+  background: rgba(0,0,0,0.8);
+  font-size: 18px;
+  -webkit-user-select: none;
+}
+#ac-global .ac-content{
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  position: relative;
+  z-index: 2;
+}
+#ac-global .ac-list{
+  cursor: default;
+  margin: 0 -200px;
+  width: auto;
+  height: 44px;
+  text-align: justify;
+}
+#ac-global .ac-gn-item{
+  display: inline-block;
+  position: relative;
+  height: 44px;
+  z-index: 1;
+  vertical-align: top;
+}
+#ac-global .ac-gn-link{
+  margin:0 60px;
+  font-size: 24px;
+  line-height: 2.75;
+  font-weight: 400;
+  letter-spacing: normal;
+  opacity: 1;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0 10px;
+  height: 44px;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-tap-highlight-color: transparent;
+  outline-offset: -7px;
+}
+#ac-global .ac-gn-link-apple{
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  background-image:url("../img/apple.svg");
+  background-position: center center;
+  width: 60px;margin:6px;
+}
+#ac-global .ac-gn-link-text{
+  line-height: 54px;
+  position: absolute;
+  top: 0;
+  /*clip: rect(1px, 1px, 1px, 1px);*/
+  /*-webkit-clip-path: inset(0px 0px 99.9% 99.9%);*/
+  /*overflow: hidden;*/
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+  left: auto;
+}
+#ac-global .ac-gn-link-Mac {
+  background-repeat: no-repeat;
+  /*background-image: url("../img/apple.svg");*/
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 1.9375em;
+  max-width: 52.7px;
+}
+.main{
+
+  position: relative;
+  width: 100%;
+  height:740px;
+  overflow: hidden;
+}
+.banner .ban1{
+   display:block;
+
+   width: 100%;
+   height:740px;
+   overflow: hidden;
+
+   background-repeat: no-repeat;
+   background-image: url("../img/event_large.jpg");
+   background-size: cover;
+   top: 0;
+   background-position: 50% 38%;
+ }
+.banner .ban2{
+  display:block;
+
+  width: 100%;
+  height:740px;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-image: url("../img/iphone_large.jpg");
+  background-size: cover;
+  top: 0;
+  background-position: 50% 38%;
+}
+.banner .ban3{
+  display:block;
+  width: 100%;
+  height:740px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url("../img/macbookpro_large.jpg");
+  background-size: cover;
+  top: 0;
+  background-position: 50% 38%;
+}
+.container{
+  width: 100%;
+}
+.column{
+  width: 25%;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  float: left;
+  min-height: 2px;
+}
+.promo-tile {
+  list-style-type: none;
+  box-sizing: border-box;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+.promo {
+  display: block;
+  background-position: center center;
+  height: 200px;
+  width: 360px;
+}
+.promo-nike-watch {
+  width: 360px;
+  background-size: 360px 200px;
+  background-repeat: no-repeat;
+  background-image: url("../img/nike_watch_large.jpg");
+}
+.promo-airpods {
+  background-size: 360px 200px;
+  background-repeat: no-repeat;
+  background-image: url("../img/airpods_large.jpg");
+}
+.promo-iphone-upgrade {
+  background-size: 360px 200px;
+  background-repeat: no-repeat;
+  background-image: url("../img/iphone_upgrade_large.jpg");
+}
+.promo-accessibility {
+  background-size: 360px 200px;
+  background-repeat: no-repeat;
+  background-image: url("../img/accessibility_large.jpg");
+}
